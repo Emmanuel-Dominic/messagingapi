@@ -3,9 +3,11 @@ black
 coveralls
 Django
 django-cors-headers
+django-firebase
 django-heroku
 djangorestframework
 djangorestframework-simplejwt
+firebase-admin
 gunicorn
 mock
 Pillow
