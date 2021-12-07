@@ -36,6 +36,7 @@ INSTALLED_APPS = [
 
     'rest_framework',
     'corsheaders',
+    'django_firebase',
 ]
 
 REST_FRAMEWORK = {
@@ -154,7 +155,17 @@ USE_L10N = True
 USE_TZ = True
 
 
-DEFAULT_FROM_EMAIL = os.environ.get('DEFAULT_FROM_EMAIL')
+DEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL')
+
+# # Set Default media storage
+DEFAULT_FILE_STORAGE = 'django_firebase.storage.FirebaseStorage'
+# # Set Bucket name
+FIREBASE_STORAGE_BUCKET = os.getenv("FIREBASE_STORAGE_BUCKET")
+# # Set Firebase cert data
+# # Note: it can be dict or json file
+# # You can get credentials in firebase console
+FIREBASE_CERT_DATA = os.path.join(BASE_DIR, './firebase-cert.json')
+
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
