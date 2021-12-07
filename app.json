@@ -1,0 +1,54 @@
+{
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "name": "messagingapi",
+  "env": {
+    "DEBUG": {
+        "required": true
+    },
+    "ADMIN_URL": {
+      "required": true
+    },
+    "DEFAULT_FROM_EMAIL": {
+      "required": true
+    },
+    "DJANGO_SETTINGS_MODULE": {
+      "required": true
+    },
+    "EMAIL_HOST_PASSWORD": {
+      "required": true
+    },
+    "EMAIL_HOST_USER": {
+      "required": true
+    },
+    "EMAIL_PORT": {
+      "required": true
+    },
+    "EMAIL_USE_TLS": {
+      "required": true
+    },
+    "HEROKU_POSTGRESQL_CYAN_URL": {
+      "required": true
+    },
+    "SECRET_KEY": {
+      "required": true
+    },
+    "DATABASE_URL": {
+      "required": true
+    },
+    "FIREBASE_STORAGE_BUCKET": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
