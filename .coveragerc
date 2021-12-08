@@ -1,0 +1,10 @@
+[report]
+omit =
+      */venv/*
+      */site-packages/nose/*
+      */__pycache__/*
+      *.pyc
+      */__init__.py
+      */config/*
+      */serializers.py
+      .env

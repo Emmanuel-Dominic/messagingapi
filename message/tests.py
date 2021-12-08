@@ -1,5 +1,7 @@
 from django.test import TestCase
 
 # Create your tests here.
-def test_message_app(TestCase):
-	pass
+class TestMessageApp(TestCase):
+
+	def test_message_app(self):
+		self.assertEquals(True, True)
