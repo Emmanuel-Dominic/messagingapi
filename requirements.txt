@@ -1,7 +1,7 @@
 autopep8
 black
 coveralls
-Django
+django
 django-cors-headers
 django-firebase
 django-heroku
@@ -15,5 +15,6 @@ psycopg2
 pytest
 pytest-mock
 python-dotenv
+pytz
 pywhatkit
 selenium
