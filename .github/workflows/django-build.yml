@@ -38,4 +38,4 @@ jobs:
         DATABASE_PASSWORD: ${{ secrets.DATABASE_PASSWORD }}
         DATABASE_HOST: ${{ secrets.DATABASE_HOST }}
       run: |
-        python manage.py test --settings=config.settings.production
+        python manage.py test --settings=config.settings.development
