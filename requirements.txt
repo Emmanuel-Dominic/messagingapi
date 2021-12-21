@@ -15,6 +15,7 @@ psycopg2
 pytest
 pytest-mock
 python-dotenv
+python-memcached
 pytz
 pywhatkit
 selenium
