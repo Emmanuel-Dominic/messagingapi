@@ -5,6 +5,7 @@ django
 django-cors-headers
 django-firebase
 django-heroku
+django-pylibmc
 djangorestframework
 djangorestframework-simplejwt
 firebase-admin
@@ -15,6 +16,7 @@ psycopg2
 pytest
 pytest-mock
 python-dotenv
+python-memcached
 pytz
 pywhatkit
 selenium
