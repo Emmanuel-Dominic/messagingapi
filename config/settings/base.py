@@ -173,6 +173,8 @@ FIREBASE_CERT_DATA = os.path.join(BASE_DIR, './firebase-cert.json')
 STATIC_URL = '/static/'
 MEDIA_URL = '/images/'
 
+ADMIN_URL = os.getenv('ADMIN_URL')
+
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
 ]
