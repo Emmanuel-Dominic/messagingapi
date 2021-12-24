@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'message.apps.MessageConfig',
+    'drf_yasg',
 
     'rest_framework',
     'corsheaders',
