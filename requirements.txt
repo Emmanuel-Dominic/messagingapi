@@ -7,6 +7,7 @@ django-firebase
 django-heroku
 djangorestframework
 djangorestframework-simplejwt
+drf-yasg
 firebase-admin
 gunicorn
 mock
