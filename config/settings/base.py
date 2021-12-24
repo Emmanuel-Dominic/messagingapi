@@ -175,6 +175,7 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/images/'
 
 ADMIN_URL = os.getenv('ADMIN_URL')
+LOGIN_URL = os.getenv('LOGIN_URL')
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')

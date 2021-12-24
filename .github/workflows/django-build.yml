@@ -33,6 +33,7 @@ jobs:
         DEFAULT_FROM_EMAIL: ${{ secrets.DEFAULT_FROM_EMAIL }}
         FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
         ADMIN_URL: ${{ secrets.ADMIN_URL}}
+        LOGIN_URL: ${{ secrets.LOGIN_URL}}
         DEFAULT_AVATAR_URL: ${{ secrets.DEFAULT_AVATAR_URL}}
         COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
         DATABASE_NAME: ${{ secrets.DATABASE_NAME }}
