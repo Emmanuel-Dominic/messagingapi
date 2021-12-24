@@ -21,6 +21,7 @@ from django.views import defaults as default_views
 
 urlpatterns = [
     path(settings.ADMIN_URL, admin.site.urls),
+    path('api/v1/', include(('message.urls', 'message'), namespace='messages')),
 ]
 
 if settings.DEBUG:
